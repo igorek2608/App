@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBB4Sp6DbsCQ4p1XrtyhdTjSjNpWFgd2I&call" defer async></script>
+    <script src="js/main.js" defer></script>
+    
+    
+    
+    <title>APP</title>
+</head>
+<body>
+    <div id="auth" class="box box-hidden">
+        <form class="form" id="auth_form" >
+            <div class="wrapper__email">
+                <label for="email" class="label">Email*</label>
+                <input type="email" id="email"   >
+                <span class="error error-success"></span>
+            </div> 
+            <div class="wrapper__password">
+                <label for="password" class="label">Password*</label>
+                <input type="password" id="password" >
+                <span class="error error-success"></span>
+            </div> 
+            <div class="wrapper__repeat-password">
+                <label for="password" class="label">Repeat Password*</label>
+                <input type="password" id="repeat__password">
+                <span class="error error-success"></span>
+            </div> 
+
+            <button id="btn__enter" class="btn-enter">
+                Войти
+            </button>
+            
+            <button id="btn__reg">
+                Регистрация
+            </button>
+            <button id="btn__ready" class="btn-ready">
+                Готово
+            </button>
+            <div class="nothing-user"></div>
+        </form>
+    </div>
+    <!-- <div id="ert"></div> -->
+
+    
+</body>
+</html> 
